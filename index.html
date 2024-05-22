@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+    <style>
+      .wrapper {
+        display: flex;
+        justify-content: space-around;
+      }
+
+      ul {
+        padding: 0;
+        margin: 0;
+      }
+
+      .block1 {
+        padding: 25px;
+        border: 5px solid rgb(237, 164, 255);
+        background-color: palevioletred;
+      }
+
+      .block2 {
+        padding: 25px;
+        border: 5px solid rgb(164, 219, 255);
+        background-color: lightseagreen;
+      }
+      h2 {
+        text-align: center;
+      }
+      li {
+        font-size: 25px;
+      }
+      img {
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="block1">
+        <h2>From free API</h2>
+        <hr />
+        <ul class="list"></ul>
+      </div>
+
+      <div class="block2">
+        <h2>From db.json</h2>
+        <hr />
+        <ul class="list2"></ul>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
